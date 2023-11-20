@@ -1,0 +1,89 @@
+/* src/Login.css */
+/* Global Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Container Styling */
+.background-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Form Styling */
+h1 {
+  font-size: 50px; /* Edit font size as needed */
+  color: #333; /* Edit text color as needed */
+  z-index: 1; /* Ensure h1 is above the background */
+}
+
+/* Form Container Styling */
+form {
+  background-color: rgba(255, 255, 255, 0.8); /* Edit background color and opacity as needed */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-top: 20px; /* Adjust margin-top as needed */
+}
+
+/* Label Styling */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold; /* Edit font weight as needed */
+}
+
+/* Input Styling */
+input {
+  width: calc(100% - 22px); /* Adjust width to account for padding and border */
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px; /* Edit font size as needed */
+  box-sizing: border-box; /* Include padding and border in the width */
+}
+
+/* Button Styling */
+button {
+  background-color: #4caf50; /* Edit button color as needed */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px; /* Edit font size as needed */
+  font-weight: bold; /* Edit font weight as needed */
+}
+
+/* Hover Effect for Button */
+button:hover {
+  background-color: #45a049; /* Edit hover color as needed */
+}
+
+/* Conditional Background Image for Login Page */
+body.login-page {
+  background: url('./LOGIN_BACKGROUND_4.jpg') center/cover no-repeat fixed; /* Adjust the path as needed */
+  background-size: cover;
+}
+
+/* White Background for Other Pages */
+body:not(.login-page) {
+  background-color: #fff; /* Adjust background color as needed */
+}

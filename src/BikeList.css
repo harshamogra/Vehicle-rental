@@ -1,0 +1,85 @@
+/* src/BikeList.css */
+
+html {
+    overflow: hidden; /* Prevent default browser scrolling */
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(179, 255, 0);
+    margin: 0;
+    padding: 0;
+    overflow: auto; /* Enable scrolling on the body */
+    min-height: 100vh; /* Set a minimum height for the body */
+   
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 100; /* Ensure the heading is on top of other elements */
+  }
+  
+  .bike-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the items */
+    align-items: flex-start; /* Align items to the start of the flex container */
+    margin: 70px 20px 20px; /* Adjust margin to account for the fixed heading */
+    box-sizing: border-box;
+    padding-top: 50px; /* Adjust padding to account for the fixed heading */
+  }
+  
+  .bike-card {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: 250px; /* Adjust the width as needed */
+    background-color: #f0f0f0; /* Grey background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .bike-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .bike-card img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .bike-details {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  h3 {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

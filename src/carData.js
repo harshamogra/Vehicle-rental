@@ -1,0 +1,86 @@
+// src/carData.js
+const cars = [
+    {
+      id: 1,
+      imageSrc: '/Toyota_Camry_Hybrid.jpg',
+      company: 'Toyota',
+      model: 'Camry',
+      year: 2022,
+      cost: 5000,
+    },
+    {
+      id: 2,
+      imageSrc: '/HONDA_CIVIC.jpg',
+      company: 'Honda',
+      model: 'Civic',
+      year: 2021,
+      cost: 4500,
+    },
+    {
+      id: 3,
+      imageSrc: '/NISSAN_ALTIMA.jpg',
+      company: 'Nissan',
+      model: 'Altima',
+      year: 2023,
+      cost: 4800,
+    },
+    {
+      id: 4,
+      imageSrc: '/FORD_MUSTANG.jpg',
+      company: 'Ford',
+      model: 'Mustang',
+      year: 2022,
+      cost: 6000,
+    },
+    {
+      id: 5,
+      imageSrc: '/CHEVROLET_CAMARO.png',
+      company: 'Chevrolet',
+      model: 'Camaro',
+      year: 2023,
+      cost: 5500,
+    },
+    {
+      id: 6,
+      imageSrc: '/HYUNDAI_SONATA.png',
+      company: 'Hyundai',
+      model: 'Sonata',
+      year: 2022,
+      cost: 4700,
+    },
+    {
+      id: 7,
+      imageSrc: '/BMW_3_SERIES.jpg',
+      company: 'BMW',
+      model: '3 Series',
+      year: 2021,
+      cost: 6500,
+    },
+    {
+      id: 8,
+      imageSrc: '/LAMBORGHINI_AVENTADOR.png',
+      company: 'Lamborghini',
+      model: 'Aventador',
+      year: 2023,
+      cost: 15000,
+    },
+    {
+      id: 9,
+      imageSrc: '/PORSCHE_911.jpeg',
+      company: 'Porsche',
+      model: '911',
+      year: 2022,
+      cost: 12000,
+    },
+    {
+      id: 10,
+      imageSrc: '/FERRARI_488.avif',
+      company: 'Ferrari',
+      model: '488 GTB',
+      year: 2021,
+      cost: 18000,
+    },
+  ];
+  
+  export default cars;
+  
